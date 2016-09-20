@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-import App from './App.js';
+import LuYou from './routes'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-render(<App />,document.getElementById('root'));
+render(<LuYou />,document.getElementById('root'));
