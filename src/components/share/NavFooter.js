@@ -4,7 +4,7 @@ class NavFooter extends React.Component {
   render () {
     return(
       <div className='footer'>
-        <Link activeClassName='active' to='/'><span className='glyphicon glyphicon-home' aria-hidden="true"></span><br />HOMT</Link>
+        <Link activeClassName='active' to='/'onlyActiveOnIndex={true}><span className='glyphicon glyphicon-home' aria-hidden="true"></span><br />HOMT</Link>
         <Link activeClassName='active' to='blog'><span className='glyphicon glyphicon-book' aria-hidden="true"></span><br />BLOG</Link>
         <Link activeClassName='active' to='work'><span className='glyphicon glyphicon-tasks
 ' aria-hidden="true"></span><br />WORK</Link>
