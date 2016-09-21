@@ -4,15 +4,12 @@
   height:100vh;
   flex-direction: column;
 }
-/*@media screen and (min-width:760px) {
-  .content-wrap{
-    flex-direction: row;
-  }
-}*/
+
 .content-main{
   background-color: #fff;
   overflow-y: auto;
   flex-grow: 1;
+  display: flex;
 }
 .header{
   height: 60px;
@@ -105,18 +102,22 @@
 
 
 /*home page*/
+
 .home-content{
-  position:relative;
   width: 100%;
-  height:100vh;
   background:url(../images/home-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
 }
 .home-content .cover{
-  position:absolute;
-  left:0;
-  top:0;
-  right:0;
-  bottom:0;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+}
+.home-item{
+  color:#fff;
+  text-align: center;
+  margin: 0 auto;
+
 }

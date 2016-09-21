@@ -5,7 +5,7 @@ class LeftNav extends React.Component {
   render () {
     return(
       <div className="left-nav">
-        <h3>ZHAOZHUO@HOME</h3>
+        <h3>ZHAOZHUO@{this.props.title}</h3>
         <Link activeClassName='active' onlyActiveOnIndex={true} to='/'><span className='glyphicon glyphicon-home' aria-hidden="true"></span>&nbsp;&nbsp;HOME</Link>
         <Link activeClassName='active' to='blog'><span className='glyphicon glyphicon-book' aria-hidden="true"></span>&nbsp;&nbsp;BLOG</Link>
         <Link activeClassName='active' to='work'><span className='glyphicon glyphicon-tasks' aria-hidden="true"></span>&nbsp;&nbsp;WORK</Link>
