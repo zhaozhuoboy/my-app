@@ -127,3 +127,41 @@ a:link,a:visited,a:hover,a:active{color:#fff;text-decoration: none;}
   margin: 0 auto;
 
 }
+.blog-item-content{
+  padding:40px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+.blog-item-content a{
+  color:#ff4081;
+  padding:4px 8px;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+.blog-item-content a:hover{
+  text-decoration: none;
+
+  background-color: #ff4081;
+  color:#fff;
+}
+.blog-item-content h1{
+  font-size: 30px;
+  text-align: center;
+  color:#20B2AA;
+}
+.blog-item-content h2{
+  font-size: 28px;
+}
+.blog-item-content h3{
+  font-size: 22px;
+}
+.blog-item-content h4{
+  font-size: 18px;
+}
+.blog-item-content p{
+  font-size: 14px;
+}
+.blog-item-content blockquote{
+  border-left: 4px solid #20B2AA;
+  font-style: italic;
+}
