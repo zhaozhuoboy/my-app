@@ -38,11 +38,10 @@ class App extends React.Component {
 
   }
   render () {
-        console.log(this.context.router);
     return(
       <div className="content-wrap">
           { this.state.showNav ? <LeftNav title={this.state.navTitle}/> :<NavHeader title={this.state.navTitle}/> }
-          <div className="content-main">
+          <div className="content-main" style={{backgroundColor:"#eee"}}>
             {this.props.children}
           </div>
 
