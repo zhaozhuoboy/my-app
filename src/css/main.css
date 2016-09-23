@@ -127,6 +127,25 @@ a:link,a:visited,a:hover,a:active{color:#fff;text-decoration: none;}
   margin: 0 auto;
 
 }
+.home-content .read-btn{
+  background:#ffd800;
+  padding:8px 10px;
+  border:none;
+  border-radius: 2px;
+  transition:all 0.3s;
+  outline: none;
+}
+.home-content .read-btn a{
+  display: block;
+  
+}
+.home-content .read-btn:hover{
+  background-color: #242424;
+}
+.home-content .read-btn:hover a{
+  text-decoration:none;
+  color:#ffd800;
+}
 .blog-item-content{
   padding:40px;
   padding-top: 20px;
@@ -164,4 +183,32 @@ a:link,a:visited,a:hover,a:active{color:#fff;text-decoration: none;}
 .blog-item-content blockquote{
   border-left: 4px solid #20B2AA;
   font-style: italic;
+}
+
+
+/*work*/
+
+.work img{
+  width:100%;
+}
+.work a:hover{color:#fff;}
+.work h2{text-align: center;}
+.work-card{
+  cursor:pointer;
+  position:relative;
+  margin: 20px;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+}
+.work-card .work-desc{
+  position:absolute;
+  width:100%;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 10px 10px;
+  padding-left: 20px;
+}
+.row .col-xs-12{
+  padding: 0;
 }
