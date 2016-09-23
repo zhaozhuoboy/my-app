@@ -12,7 +12,8 @@ class BlogCard extends React.Component {
         borderRadius:"10px",
         boxShadow:"1px 1px 2px rgba(0,0,0,0.3)",
         overflow:"hidden",
-        backgroundColor:"#fff"
+        backgroundColor:"#fff",
+        transition:"all 0.2s"
       },
       index:{
         backgroundColor:"#333",
@@ -33,25 +34,17 @@ class BlogCard extends React.Component {
       date:{
         fontSize:"14px",
         float:"right"
-      },
-      readBtn:{
-        float:"right",
-        padding:"6px 10px",
-        borderRadius:"20px",
-        color:"#ffd800",
-        textDecoration:"none",
-        border:"2px solid #ffd800",
       }
     }
     let address = `blog/${this.props.url}`
     return(
-      <div style={styles.root}>
+      <div style={styles.root} className='blog-card'>
         <div style={styles.index}><i style={styles.num}>{this.props.index}</i></div>
         <div style={{padding:"16px"}}>
           <h4>{this.props.title}<i style={styles.date}>{this.props.date}</i></h4>
           <p>{this.props.desc}</p>
 
-          <Link to={address} style={styles.readBtn}>Read More</Link>
+          <Link to={address} style={styles.readBtn} className='read-more-btn'>Read More</Link>
           <div style={{clear:"both"}}></div>
         </div>
       </div>

@@ -127,7 +127,7 @@ a:link,a:visited,a:hover,a:active{color:#fff;text-decoration: none;}
   margin: 0 auto;
 
 }
-.home-content .read-btn{
+.home-content .home-btn{
   background:#ffd800;
   padding:8px 10px;
   border:none;
@@ -135,14 +135,14 @@ a:link,a:visited,a:hover,a:active{color:#fff;text-decoration: none;}
   transition:all 0.3s;
   outline: none;
 }
-.home-content .read-btn a{
+.home-content .home-btn a{
   display: block;
-  
+
 }
-.home-content .read-btn:hover{
+.home-content .home-btn:hover{
   background-color: #242424;
 }
-.home-content .read-btn:hover a{
+.home-content .home-btn:hover a{
   text-decoration:none;
   color:#ffd800;
 }
@@ -211,4 +211,25 @@ a:link,a:visited,a:hover,a:active{color:#fff;text-decoration: none;}
 }
 .row .col-xs-12{
   padding: 0;
+}
+
+
+
+/*blog-card*/
+.blog-card:hover{
+  cursor: pointer;
+  box-shadow:0 1px 8px rgba(0, 0, 0, 0.5) !important;
+}
+.blog-card .read-more-btn{
+  float:right;
+  padding:6px 10px;
+  border-radius:20px;
+  color: #fff;
+  text-decoration:none;
+  border:1px solid rgb(80, 80, 80);
+  background-color: rgb(80, 80, 80);
+  transition: all 0.3s;
+}
+.blog-card .read-more-btn:hover{
+  color:#ffd800;
 }
