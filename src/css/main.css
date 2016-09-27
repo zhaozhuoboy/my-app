@@ -197,7 +197,6 @@ a:link,a:visited,a:hover,a:active{color:#fff;text-decoration: none;}
   cursor:pointer;
   position:relative;
   margin: 20px;
-  border-radius: 0 0 10px 10px;
   overflow: hidden;
 }
 .work-card .work-desc{
@@ -209,7 +208,6 @@ a:link,a:visited,a:hover,a:active{color:#fff;text-decoration: none;}
   display: flex;
   flex-direction: column;
   background: rgba(0, 0, 0, 0.5);
-  border-radius: 0 0 10px 10px;
   padding: 20px;
   transition: all 0.3s;
   transform: translateY(100%);
