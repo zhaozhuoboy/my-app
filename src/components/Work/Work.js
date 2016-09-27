@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react';
 
-import freeline from '../../images/work/freeline.png'
-import weixin from '../../images/work/weixin.png'
-import waimai from '../../images/work/waimai.png'
+import freeline from '../../images/work/freeline.jpg'
+import weixin from '../../images/work/weixin.jpg'
+import waimai from '../../images/work/waimai.jpg'
 
 class Work extends React.Component {
   render () {
