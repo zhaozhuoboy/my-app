@@ -20,6 +20,7 @@ class Blog extends React.Component {
           blogData:recData.data,
           wait:false
         })
+        console.log(this.state.blogData);
       }
     )
 
@@ -32,7 +33,8 @@ class Blog extends React.Component {
                     index = {this.state.blogData[i].index}
                     title = {this.state.blogData[i].title}
                     date  = {this.state.blogData[i].date}
-                    desc  = {this.state.blogData[i].desc}/>
+                    desc  = {this.state.blogData[i].desc}
+                    url   = {this.state.blogData[i].url}/>
       )
     }
     return(

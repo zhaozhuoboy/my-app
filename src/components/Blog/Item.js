@@ -15,6 +15,7 @@ class Item extends React.Component {
   }
   componentDidMount(){
     let mdName = this.props.params.url;
+    console.log(this.props.params.url);
 
     getMarkDown(mdName).then(
       (recData) => {
