@@ -20,7 +20,6 @@ class Blog extends React.Component {
           blogData:recData.data,
           wait:false
         })
-        console.log(this.state.blogData);
       }
     )
 
