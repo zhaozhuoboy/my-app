@@ -13,6 +13,13 @@ class About extends React.Component {
               </span>
             </div>
           </div>
+
+          <div>
+
+            <i className="fa fa-spinner fa-lg fa-spin fa-4x"></i>
+
+            
+          </div>
         </div>
       </div>
     )

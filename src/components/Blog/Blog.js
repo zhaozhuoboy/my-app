@@ -40,9 +40,8 @@ class Blog extends React.Component {
       <div style={{width:"100%",marginTop:"20px"}}>
         {
           this.state.wait ?
-              <p style={{textAlign:"center",marginTop:"28%",fontSize:"18px"}}>
-                <span className="glyphicon glyphicon-refresh" aria-hidden="true"
-                  style={{fontSize:"30px",animation:'loading 1s linear infinite'}}></span><br />
+              <p style={{textAlign:"center",marginTop:"22%",fontSize:"18px"}}>
+                <i className="fa fa-spinner fa-lg fa-spin fa-2x"></i> <br /><br />
                 正在加载...
               </p> :blogs
         //  this.state.blogData.map( (item,i) => <BlogCard {...item} key={i} />  )

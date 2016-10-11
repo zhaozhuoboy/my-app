@@ -32,10 +32,9 @@ class Item extends React.Component {
       <div style={{width:"100%"}}>
         {
           this.state.wait ?
-           <p style={{textAlign:"center",fontSize:"18px",color:"#20B2AA",marginTop:"28%"}}>
-            <span className="glyphicon glyphicon-refresh" aria-hidden="true"
-              style={{fontSize:"30px",animation:'loading 1s linear infinite'}}></span><br />
-            正在加载...
+           <p style={{textAlign:"center",fontSize:"18px",color:"#20B2AA",marginTop:"22%"}}>
+              <i className="fa fa-spinner fa-lg fa-spin fa-2x"></i> <br /><br />
+              正在加载...
           </p> :
           <div className="blog-item-content" dangerouslySetInnerHTML={this.printMark()}/>
         }
