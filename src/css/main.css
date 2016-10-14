@@ -1,4 +1,5 @@
 a:link,a:visited,a:hover,a:active{color:#fff;text-decoration: none;}
+ul{list-style: none;margin: 0;padding: 0;}
 
 .content-wrap{
   display: flex;
@@ -239,4 +240,96 @@ a:link,a:visited,a:hover,a:active{color:#fff;text-decoration: none;}
 }
 .blog-card .read-more-btn:hover{
   color:#ffd800;
+}
+
+/*about page*/
+.about{
+  width:960px;
+  padding: 40px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  font: 500 1em/1.5 "PingFang SC", "Lantinghei SC", "Microsoft Yahei",  sans;
+  overflow: auto;
+}
+.about a{
+  color:teal;
+}
+.about .info{
+  display: flex;
+  width:96%;
+  margin:0 auto;
+}
+.info .left{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: center;
+}
+.info .left h3{
+  margin-left: 40px;
+}
+.info .left p{
+  font-weight: 700;
+  margin-left: 40px;
+}
+.info .avatar-img{
+  display: flex;
+  flex:1;
+  justify-content: center;
+}
+.info .avatar-img img{
+  width:120px;
+  height:120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.info .right{
+  display: flex;
+  flex:1;
+  align-items: center;
+}
+
+.info .right ul li p{
+  display: inline-block;
+  font-size: 16px;
+}
+.info .right i{
+  text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    background-color: #20B2AA;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+.list{
+  width:96%;
+  margin: 20px auto;
+}
+.list .mb30{
+  margin-bottom: 30px;
+}
+.list .tag{
+  height: 40px;
+  background: url(../images/tab.png) no-repeat;
+  line-height: 40px;
+  padding-left: 40px;
+  margin-bottom: 30px;
+  color:#fff;
+  font-size:18px;
+}
+.list .tag+ul{
+  margin-left: 20px;
+}
+.list i{
+  font-size: 20px;
+  margin-right: 20px;
+}
+.list p{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
 }

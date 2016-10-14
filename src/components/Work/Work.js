@@ -12,7 +12,7 @@ class Work extends React.Component {
         <div className="container-fluid">
           <h2>我的作品</h2>
           <div className="row">
-            <a href='http://freeline.coding.me/'>
+            <a target="_blank" href='http://freeline.coding.me/'>
               <div className='col-xs-12 col-sm-6 col-md-4'>
                 <div className="work-card">
                   <img src={freeline} alt=""/>
@@ -24,7 +24,7 @@ class Work extends React.Component {
               </div>
             </a>
 
-            <a href='https://zhaozhuoboy.github.io/weixin-h5/'>
+            <a target="_blank" href='https://zhaozhuoboy.github.io/weixin-h5/'>
               <div className='col-xs-12 col-sm-6 col-md-4'>
                 <div className="work-card">
                   <img src={weixin} alt=""/>
@@ -37,7 +37,7 @@ class Work extends React.Component {
             </a>
 
 
-            <a href='https://zhaozhuoboy.github.io/waimai/'>
+            <a target="_blank" href='https://zhaozhuoboy.github.io/waimai/'>
               <div className='col-xs-12 col-sm-6 col-md-4'>
                 <div className="work-card">
                   <img src={waimai} alt=""/>
