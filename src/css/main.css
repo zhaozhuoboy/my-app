@@ -35,7 +35,7 @@ ul{list-style: none;margin: 0;padding: 0;}
 .footer{
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 50px;
   flex-shrink:0;
   background-color: #0A0A0A;
 }
@@ -44,14 +44,14 @@ ul{list-style: none;margin: 0;padding: 0;}
   flex-grow: 1;
   text-align: center;
   line-height: 20px;
-  padding-top: 20px;
+  padding-top: 6px;
   color:#fff;
   border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 .footer a:link,.footer a:visited,.footer a:hover,.footer a:active{color:#fff;text-decoration: none;}
 
 .footer span{
-  font-size:20px;
+  font-size:14px;
 }
 .footer .active{
   color:#ffd800 !important;
@@ -332,4 +332,20 @@ ul{list-style: none;margin: 0;padding: 0;}
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
+}
+
+@media screen and (max-width:600px) {
+  .about{
+    padding:10px;
+  }
+  .about .info{
+    flex-direction: column;
+  }
+  .about .info .left{order:2;text-align: center;}
+  .about .info .left h3{margin: 10px 0 10px 0;}
+  .about .info .left p{margin: 0;}
+  .about .info .right{order:3;margin-top:20px;}
+  .about .info .right ul{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between}
+  .list i{margin-right: 10px;}
+  .list p{display: inline;line-height:30px;}
 }
