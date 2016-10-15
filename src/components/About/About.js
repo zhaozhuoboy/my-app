@@ -83,6 +83,11 @@ class About extends React.Component {
               <div className='tag'>项目经验</div>
 
             </div>
+            <div className='project mb30'>
+              <div className='tag'>在校实践</div>
+
+            </div>
+            
 
 
           </div>

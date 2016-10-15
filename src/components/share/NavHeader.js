@@ -12,7 +12,7 @@ class NavHeader extends React.Component {
     return(
       <div className="header">
         <span className="glyphicon glyphicon-menu-left" aria-hidden="true" onClick={this.goBack.bind(this)}></span>
-        <h3>APP @ {this.props.title}</h3>
+        <h3>{this.props.title}</h3>
         <span className="glyphicon glyphicon-refresh" aria-hidden="true" onClick={this.reload.bind(this)}></span>
       </div>
     )
