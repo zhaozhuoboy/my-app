@@ -77,6 +77,10 @@ class About extends React.Component {
                   <i className='fa fa-check-square-o' aria-hidden='true'></i>
                   <p>Git : 熟练使用Git工具</p>
                 </li>
+                <li>
+                  <i className='fa fa-check-square-o' aria-hidden='true'></i>
+                  <p>Photoshop : 熟练PS切片工具对网页效果图切片优化</p>
+                </li>
               </ul>
             </div>
             <div className='project mb30'>
@@ -84,10 +88,20 @@ class About extends React.Component {
 
             </div>
             <div className='project mb30'>
-              <div className='tag'>在校实践</div>
+              <div className='tag'>在校实践/获奖</div>
+              <ul>
+                <li>
+                  <i className='fa fa-star' aria-hidden='true'></i>
+                  <p>乒乓球四校区联赛团体二等奖</p>
+                </li>
+                <li>
+                  <i className='fa fa-star' aria-hidden='true'></i>
+                  <p>2015年‘创译杯’网页设计大赛二等奖</p>
+                </li>
+              </ul>
 
             </div>
-            
+
 
 
           </div>
