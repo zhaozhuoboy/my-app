@@ -85,6 +85,35 @@ class About extends React.Component {
             </div>
             <div className='project mb30'>
               <div className='tag'>项目经验</div>
+              <ul>
+                {/*
+                <li>
+                  <p>魔赞商城 &nbsp;<i className='fa fa-link' aria-hidden='true'></i>
+                    <a target='_blank' href='http://morethan.cc/template/wap/default/index-n.html'>morethan.cc</a>
+                  </p>
+                  <div className="project-desc">
+                    <p>kuakuakua</p>
+                  </div>
+                </li>
+                <li>
+                  <p>美国环球地产奥兰多地产投资 &nbsp;<i className='fa fa-link' aria-hidden='true'></i>
+                    <a target='_blank' href='http://52.89.113.198/'>link</a>
+                  </p>
+                  <div className="project-desc">
+                    <p>2016年7月-2016年8月 完成 美国环球地产奥兰多地产投资 的前端页面，使用react 技术完成前端组件的编写，实现可复用的组件，提高了开发效率。使用bootstrap栅格系统完成页面的响应式布局。使用react-bootstrap 实现首页轮播图的效果。使用react-router 实现路由控制，通过 axios 发 ajax 请求，实现页面内容呈现</p>
+                  </div>
+                </li>
+                */}
+                <li>
+                  <p>个人博客 &nbsp;<i className='fa fa-link' aria-hidden='true'></i>
+                    <a target='_blank' href='http://zhaozhuoboy.cn'>zhaozhuo.club</a>&nbsp;/
+                    <a target='_blank' href='http://zhaozhuoboy.github.io'>zhaozhuoboy.github.io</a>
+                  </p>
+                  <div className="project-desc">
+                    <p>利用react技术，结合webpack打包模块，运用组件化思想，结合组件库，通过react-router实现的单页面应用路由控制。通过 axios 发 ajax 请求，实现页面内容呈现。</p>
+                  </div>
+                </li>
+              </ul>
 
             </div>
             <div className='project mb30'>
@@ -92,16 +121,32 @@ class About extends React.Component {
               <ul>
                 <li>
                   <i className='fa fa-star' aria-hidden='true'></i>
-                  <p>乒乓球四校区联赛团体二等奖</p>
+                  <p>2013年11月启行营地活发展教育中心参观学习</p>
+                </li>
+                <li>
+                  <i className='fa fa-star' aria-hidden='true'></i>
+                  <p>2014年乒乓球四校区联赛团体二等奖</p>
+                </li>
+                <li>
+                  <i className='fa fa-star' aria-hidden='true'></i>
+                  <p>2015年5月申请为秦皇岛国际马拉松志愿者</p>
                 </li>
                 <li>
                   <i className='fa fa-star' aria-hidden='true'></i>
                   <p>2015年‘创译杯’网页设计大赛二等奖</p>
                 </li>
+                <li>
+                  <i className='fa fa-star' aria-hidden='true'></i>
+                  <p>2016年 综合测评三等奖学金</p>
+                </li>
               </ul>
-
             </div>
 
+            <div className='mb30 about-me'>
+              <div className='tag'>自我评价</div>
+              <p style={{textIndent:"12px"}}><i className='fa fa-heart' aria-hidden='true'></i>
+              本人性格随和乐观，乐观开朗，学习能力强，工作认真负责，善于在实践中积累学习，不断的完善自我。喜欢接触新事物新技术。</p>
+            </div>
 
 
           </div>

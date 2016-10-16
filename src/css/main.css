@@ -333,6 +333,18 @@ ul{list-style: none;margin: 0;padding: 0;}
   font-size: 16px;
   font-weight: 700;
 }
+.project i{
+  font-size: 16px;
+  margin:0 10px;
+}
+.project .project-desc{
+  margin-left: 20px;
+}
+.project .project-desc p{
+  font-size: 14px;
+  font-weight: normal;
+  text-indent: 2em;
+}
 
 @media screen and (max-width:600px) {
   .about{
