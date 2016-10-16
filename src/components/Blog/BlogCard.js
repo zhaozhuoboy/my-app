@@ -6,12 +6,12 @@ class BlogCard extends React.Component {
   render () {
     let styles={
       root:{
+        position:"relative",
         width:"94%",
         margin:"0 auto",
         marginBottom:"20px",
-        borderRadius:"10px",
+        borderRadius:"6px",
         boxShadow:"1px 1px 2px rgba(0,0,0,0.3)",
-        overflow:"hidden",
         backgroundColor:"#fff",
         transition:"all 0.2s"
       },
@@ -34,11 +34,20 @@ class BlogCard extends React.Component {
       date:{
         fontSize:"14px",
         float:"right"
+      },
+      bookmark:{
+        position:"absolute",
+        left:"20px",
+        top:"-6px",
+        zIndex:"3",
+        fontSize:"30px",
+        color:"rgb(255,223,43)"
       }
     }
     let address = `blog/${this.props.url}`
     return(
       <div style={styles.root} className='blog-card'>
+        <i className="fa fa-bookmark" aria-hidden="true" style={styles.bookmark}></i>
         <div style={styles.index}><i style={styles.num}>{this.props.index}</i></div>
         <div style={{padding:"16px"}}>
           <h4>{this.props.title}<i style={styles.date}>{this.props.date}</i></h4>

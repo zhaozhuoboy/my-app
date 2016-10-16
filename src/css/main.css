@@ -46,7 +46,7 @@ ul{list-style: none;margin: 0;padding: 0;}
   line-height: 20px;
   padding-top: 6px;
   color:#fff;
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  /*border-right: 1px solid rgba(255, 255, 255, 0.2);*/
 }
 .footer a:link,.footer a:visited,.footer a:hover,.footer a:active{color:#fff;text-decoration: none;}
 
@@ -55,7 +55,7 @@ ul{list-style: none;margin: 0;padding: 0;}
 }
 .footer .active{
   color:#ffd800 !important;
-  border-bottom: 4px solid #ffd800;
+  border-bottom: 2px solid #ffd800;
 }
 
 /*left Nav*/
