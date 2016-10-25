@@ -24,13 +24,13 @@ class Work extends React.Component {
               </div>
             </a>
 
-            <a target="_blank" href='https://zhaozhuoboy.github.io/weixin-h5/'>
+            <a target="_blank" href='https://zhaozhuoboy.github.io/h5-resume/'>
               <div className='col-xs-12 col-sm-6 col-md-3'>
                 <div className="work-card">
                   <img src={weixin} alt=""/>
                   <div className='work-desc'>
-                    <h4>微信场景应用</h4>
-                    <p>使用swiper + zepto 制作的微信场景应用</p>
+                    <h4>微信 微简历</h4>
+                    <p>使用swiper + zepto 制作的微信场景应用 动画使用 animation.css 实现</p>
                   </div>
                 </div>
               </div>
