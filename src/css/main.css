@@ -1,6 +1,8 @@
 a:link,a:visited,a:hover,a:active{color:#fff;text-decoration: none;}
 ul{list-style: none;margin: 0;padding: 0;}
-
+.tip{
+  color:teal;
+}
 .content-wrap{
   display: flex;
   height:100vh;

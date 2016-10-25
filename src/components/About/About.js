@@ -33,7 +33,7 @@ class About extends React.Component {
                 </li>
                 <li>
                   <i className="fa fa-rocket" aria-hidden="true"></i>
-                  <p>技能 : React | HTML | CSS | JavaScript | JQuery | Ajax | </p>
+                  <p>技能 : <span className='tip'>React</span> | HTML | CSS | JavaScript | JQuery | Ajax | </p>
                 </li>
                 <li>
                   <i className="fa fa-rocket" aria-hidden="true"></i>
@@ -47,7 +47,7 @@ class About extends React.Component {
               <ul>
                 <li>
                   <i className='fa fa-check-square-o' aria-hidden='true'></i>
-                  <p>React : 能够使用React构建组件式单页应用</p>
+                  <p className='tip'>React : 能够使用React构建组件式单页应用</p>
                 </li>
                 <li>
                   <i className='fa fa-check-square-o' aria-hidden='true'></i>
@@ -63,7 +63,7 @@ class About extends React.Component {
                 </li>
                 <li>
                   <i className='fa fa-check-square-o' aria-hidden='true'></i>
-                  <p>构建工具 : 能够简单使用webpack/npm进行前端工程的构建</p>
+                  <p className='tip'>构建工具 : 能够简单使用webpack/npm进行前端工程的构建</p>
                 </li>
                 <li>
                   <i className='fa fa-check-square-o' aria-hidden='true'></i>
@@ -71,11 +71,11 @@ class About extends React.Component {
                 </li>
                 <li>
                   <i className='fa fa-check-square-o' aria-hidden='true'></i>
-                  <p>Linux : 熟练使用linux系统进行开发, 在服务器进行代码部署</p>
+                  <p className='tip'>Linux : 熟练使用linux系统进行开发, 在服务器进行代码部署</p>
                 </li>
                 <li>
                   <i className='fa fa-check-square-o' aria-hidden='true'></i>
-                  <p>Git : 熟练使用Git工具</p>
+                  <p className='tip'>Git : 熟练使用Git工具</p>
                 </li>
                 <li>
                   <i className='fa fa-check-square-o' aria-hidden='true'></i>
