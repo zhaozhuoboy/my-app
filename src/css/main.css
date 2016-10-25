@@ -74,11 +74,10 @@ ul{list-style: none;margin: 0;padding: 0;}
   }
   /*nav-bar start*/
   .nav-bar{
-    width:960px;
+    width:1000px !important;
     margin: 0 auto;
     background-color: #212121;
     height: 50px;
-    /*overflow: hidden;*/
   }
   .nav-bar ul{
     display: flex;
