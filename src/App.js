@@ -2,6 +2,8 @@ import React from 'react';
 import NavHeader from './components/share/NavHeader';
 import NavFooter from './components/share/NavFooter';
 import LeftNav from './components/share/LeftNav';
+import NavBar from './components/share/NavBar';
+import Footer from './components/share/Footer';
 
 import './css/main.css'
 
@@ -40,12 +42,12 @@ class App extends React.Component {
   render () {
     return(
       <div className="content-wrap">
-          { this.state.showNav ? <LeftNav title={this.state.navTitle}/> :<NavHeader title={this.state.navTitle}/> }
-          <div className="content-main" style={{backgroundColor:"#eee"}}>
+          { this.state.showNav ? <NavBar /> :<NavHeader title={this.state.navTitle}/> }
+          <div className="content-main">
             {this.props.children}
           </div>
 
-          { this.state.showNav ? '' :<NavFooter /> }
+          { this.state.showNav ? <Footer /> :<NavFooter /> }
       </div>
     )
   }

@@ -36,7 +36,7 @@ class Item extends React.Component {
               <i className="fa fa-spinner fa-lg fa-spin fa-2x"></i> <br /><br />
               正在加载...
           </p> :
-          <div className="blog-item-content" dangerouslySetInnerHTML={this.printMark()}/>
+          <div className="blog-item-content container" dangerouslySetInnerHTML={this.printMark()}/>
         }
 
       </div>

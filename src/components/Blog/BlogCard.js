@@ -7,7 +7,7 @@ class BlogCard extends React.Component {
     let styles={
       root:{
         position:"relative",
-        width:"94%",
+        // width:"100%",
         margin:"0 auto",
         marginBottom:"20px",
         borderRadius:"6px",

@@ -9,11 +9,11 @@ class Work extends React.Component {
     return(
 
       <div className='work'>
-        <div className="container-fluid">
+        <div className="container inner">
           <h2>我的作品</h2>
           <div className="row">
             <a target="_blank" href='http://freeline.coding.me/'>
-              <div className='col-xs-12 col-sm-6 col-md-4'>
+              <div className='col-xs-12 col-sm-6 col-md-3'>
                 <div className="work-card">
                   <img src={freeline} alt=""/>
                   <div className='work-desc'>
@@ -25,7 +25,7 @@ class Work extends React.Component {
             </a>
 
             <a target="_blank" href='https://zhaozhuoboy.github.io/weixin-h5/'>
-              <div className='col-xs-12 col-sm-6 col-md-4'>
+              <div className='col-xs-12 col-sm-6 col-md-3'>
                 <div className="work-card">
                   <img src={weixin} alt=""/>
                   <div className='work-desc'>
@@ -38,7 +38,7 @@ class Work extends React.Component {
 
 
             <a target="_blank" href='https://zhaozhuoboy.github.io/waimai/'>
-              <div className='col-xs-12 col-sm-6 col-md-4'>
+              <div className='col-xs-12 col-sm-6 col-md-3'>
                 <div className="work-card">
                   <img src={waimai} alt=""/>
                   <div className='work-desc'>
