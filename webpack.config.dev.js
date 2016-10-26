@@ -34,6 +34,10 @@ module.exports = {
     {
       test: /\.(woff|woff2|ttf|svg|eot)(\?v=\d+\.\d+\.\d+)?$/,
       loader: "url?limit=10000"
+    },
+    {
+       test: require.resolve('wow.js/dist/wow.js'), 
+       loader: 'exports?this.WOW'
     }
   ]
   }

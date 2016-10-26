@@ -243,6 +243,7 @@ ul{list-style: none;margin: 0;padding: 0;}
 
 /*work*/
 .work{width: 100%;}
+.work a{display: block;}
 .work img{
   width:100%;
 }
