@@ -10,7 +10,49 @@ class Work extends React.Component {
 
       <div className='work'>
         <div className="container inner">
-          <h2>我的作品</h2>
+          <h2>项目经验</h2>
+            <div className="row">
+                <a target="_blank" href='http://52.89.113.198'>
+                  <div className='col-xs-12 col-sm-6 col-md-3'>
+                    <div className="work-card">
+                      <img src={freeline} alt=""/>
+                      <div className='work-desc'>
+                        <h4>美国环球地产|奥兰多地产投资</h4>
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a target="_blank" href='http://morethan.cc/template/wap/default/index-n.html'>
+                  <div className='col-xs-12 col-sm-6 col-md-3'>
+                    <div className="work-card">
+                      <img src={weixin} alt=""/>
+                      <div className='work-desc'>
+                        <h4>魔赞商城（移动端）</h4>
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+
+                <a target="_blank" href='http://zhaozhuoboy.cn'>
+                  <div className='col-xs-12 col-sm-6 col-md-3'>
+                    <div className="work-card">
+                      <img src={waimai} alt=""/>
+                      <div className='work-desc'>
+                        <h4>个人博客（响应式）</h4>
+                        <p>React 单页面应用</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+
+
+              </div>
+          <h2>练手小作</h2>
           <div className="row">
             <a target="_blank" href='http://freeline.coding.me/'>
               <div className='col-xs-12 col-sm-6 col-md-3'>
