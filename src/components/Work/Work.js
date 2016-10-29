@@ -3,6 +3,9 @@ import React, { PropTypes } from 'react';
 import freeline from '../../images/work/freeline.jpg'
 import weixin from '../../images/work/weixin.jpg'
 import waimai from '../../images/work/waimai.jpg'
+import aoland from '../../images/work/aoland.jpg'
+import morethan from '../../images/work/morethan.jpg'
+import mysite from '../../images/work/mysite.jpg'
 
 class Work extends React.Component {
   render () {
@@ -16,7 +19,7 @@ class Work extends React.Component {
                 <a target="_blank" href='http://52.89.113.198'>
                   <div className='col-xs-12 col-sm-6 col-md-3'>
                     <div className="work-card">
-                      <img src={freeline} alt=""/>
+                      <img src={aoland} alt=""/>
                       <div className='work-desc'>
                         <h4>美国环球地产|奥兰多地产投资</h4>
                         <p></p>
@@ -29,7 +32,7 @@ class Work extends React.Component {
                 <a target="_blank" href='http://morethan.cc/template/wap/default/index-n.html'>
                   <div className='col-xs-12 col-sm-6 col-md-3'>
                     <div className="work-card">
-                      <img src={weixin} alt=""/>
+                      <img src={morethan} alt="魔赞商城移动端首页"/>
                       <div className='work-desc'>
                         <h4>魔赞商城（移动端）</h4>
                         <p></p>
@@ -43,7 +46,7 @@ class Work extends React.Component {
                 <a target="_blank" href='http://zhaozhuoboy.cn'>
                   <div className='col-xs-12 col-sm-6 col-md-3'>
                     <div className="work-card">
-                      <img src={waimai} alt=""/>
+                      <img src={mysite} alt=""/>
                       <div className='work-desc'>
                         <h4>个人博客（响应式）</h4>
                         <p>React 单页面应用</p>

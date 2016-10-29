@@ -51,6 +51,10 @@ class About extends React.Component {
                 </li>
                 <li>
                   <i className='fa fa-check-square-o' aria-hidden='true'></i>
+                  <p>熟悉node后台，熟悉express 后端框架，熟悉mongodb 非关系型数据库操作</p>
+                </li>
+                <li>
+                  <i className='fa fa-check-square-o' aria-hidden='true'></i>
                   <p>JavaScript : 熟悉JavaScript，对ES5、ES6标准有一定的了解，且能在项目中使用</p>
                 </li>
                 <li>
@@ -86,13 +90,15 @@ class About extends React.Component {
             <div className='project mb30'>
               <div className='tag'>项目经验</div>
               <ul>
-                {/*
+
                 <li>
                   <p>魔赞商城 &nbsp;<i className='fa fa-link' aria-hidden='true'></i>
                     <a target='_blank' href='http://morethan.cc/template/wap/default/index-n.html'>morethan.cc</a>
                   </p>
                   <div className="project-desc">
-                    <p>kuakuakua</p>
+                    <h5><i className='fa fa-pencil' aria-hidden='true'></i>工作职责：</h5>
+                    <p>根据设计稿对页面进行重构，使用zepto 完成用户搜索交互功能，页面兼容主流移动端浏览器，在多设备测试表现一致。
+</p>
                   </div>
                 </li>
                 <li>
@@ -100,14 +106,15 @@ class About extends React.Component {
                     <a target='_blank' href='http://52.89.113.198/'>link</a>
                   </p>
                   <div className="project-desc">
-                    <p>2016年7月-2016年8月 完成 美国环球地产奥兰多地产投资 的前端页面，使用react 技术完成前端组件的编写，实现可复用的组件，提高了开发效率。使用bootstrap栅格系统完成页面的响应式布局。使用react-bootstrap 实现首页轮播图的效果。使用react-router 实现路由控制，通过 axios 发 ajax 请求，实现页面内容呈现</p>
+                    <h5><i className='fa fa-pencil' aria-hidden='true'></i>工作职责：</h5>
+                    <p>使用react 技术完成前端组件的编写，实现可复用的组件，提高了开发效率。使用bootstrap栅格系统完成页面的响应式布局。使用react-bootstrap 实现首页轮播图的效果。使用react-router 实现路由控制，通过 axios 发 ajax 请求，实现页面内容呈现</p>
                   </div>
                 </li>
-                */}
+
                 <li>
                   <p>个人博客 &nbsp;<i className='fa fa-link' aria-hidden='true'></i>
-                    <a target='_blank' href='http://zhaozhuoboy.cn'>zhaozhuo.club</a>&nbsp;/
-                    <a target='_blank' href='http://zhaozhuoboy.github.io'>zhaozhuoboy.github.io</a>
+                    <a target='_blank' href='http://zhaozhuoboy.cn'>zhaozhuoboy.cn</a>&nbsp;/
+                    <a target='_blank' href='http://zhaozhuo.club'>zhaozhuo.club</a>
                   </p>
                   <div className="project-desc">
                     <p>利用react技术，结合webpack打包模块，运用组件化思想，结合组件库，通过react-router实现的单页面应用路由控制。通过 axios 发 ajax 请求，实现页面内容呈现。</p>
