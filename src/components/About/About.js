@@ -117,6 +117,7 @@ class About extends React.Component {
                     <a target='_blank' href='http://zhaozhuo.club'>zhaozhuo.club</a>
                   </p>
                   <div className="project-desc">
+                    <h5><i className='fa fa-pencil' aria-hidden='true'></i>工作职责：</h5>
                     <p>利用react技术，结合webpack打包模块，运用组件化思想，结合组件库，通过react-router实现的单页面应用路由控制。通过 axios 发 ajax 请求，实现页面内容呈现。</p>
                   </div>
                 </li>
