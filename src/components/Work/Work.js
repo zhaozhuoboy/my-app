@@ -46,7 +46,7 @@ class Work extends React.Component {
                 <a target="_blank" href='http://zhaozhuoboy.cn'>
                   <div className='col-xs-12 col-sm-6 col-md-3'>
                     <div className="work-card">
-                      <img src={waimai} alt=""/>
+                      <img src={mysite} alt=""/>
                       <div className='work-desc'>
                         <h4>个人博客（响应式）</h4>
                         <p>React 单页面应用</p>

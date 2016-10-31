@@ -59,11 +59,11 @@ class About extends React.Component {
                 </li>
                 <li>
                   <i className='fa fa-check-square-o' aria-hidden='true'></i>
-                  <p>HTML/CSS : 能够编写语义化的HTML，模块化的CSS，实现比较复杂的布局和动画</p>
+                  <p>HTML/CSS : 快速编写语义化的HTML，模块化的CSS，实现比较复杂的布局和动画</p>
                 </li>
                 <li>
                   <i className='fa fa-check-square-o' aria-hidden='true'></i>
-                  <p>JQuery : 能使用jQuery操作文档对象、制作动画效果、事件处理等</p>
+                  <p>JQuery : 熟练使用jQuery操作文档对象、制作动画效果、事件处理等</p>
                 </li>
                 <li>
                   <i className='fa fa-check-square-o' aria-hidden='true'></i>
@@ -142,6 +142,10 @@ class About extends React.Component {
                 <li>
                   <i className='fa fa-star' aria-hidden='true'></i>
                   <p>2015年‘创译杯’网页设计大赛二等奖</p>
+                </li>
+                <li>
+                  <i className='fa fa-star' aria-hidden='true'></i>
+                  <p>2015年12月成为预备党员</p>
                 </li>
                 <li>
                   <i className='fa fa-star' aria-hidden='true'></i>
